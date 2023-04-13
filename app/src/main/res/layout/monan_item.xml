@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layoutDescription="@xml/monan_item_scene">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageMonan"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="5dp"
+
+        />
+    <TextView
+        android:id="@+id/txvTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="tên món ăn"
+        android:textColor="#f20"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
